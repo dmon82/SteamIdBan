@@ -1,2 +1,3 @@
-# SteamIdBan
-Mod for Wurm Unlimited that allows server owners to ban players by Steam ID
+For this mod to work, the javax-json jar needs to be referenced in the modloader's manifest file or be added in the mod's manifest file. As the data required to be stored by the mod (Steam ID, date of ban, expiry (if ever), reason, who banned it) is outside of the server, and I ended up choosing JSON.
+
+I will no longer be able to maintain my mods. This was a small project between commissions as part of an ongoing relationship, I was asked to release it later but never gotten around to it. There was no functionality in the Wurm Unlimited server software, nor a public mod that enabled server owners to ban by Steam ID.
